@@ -1,24 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import BannerPToW from "./components/BannerPToW";
+import BannerWToP from "./components/BannerWToP";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import Gallery from "./components/Gallery";
+import Header from "./components/Header";
+import Modal from "./components/Modal";
+import Opinions from "./components/Opinions";
+import Services from "./components/Services";
 
 function App() {
+
+  const [selectedImg, setSelectedImg] = useState(null)
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="App p-4 bg-body-pattern bg-12.5">
+        <div className="bg-white/90 rounded-xl shadow-3xl max-w-[1900px] mx-auto">
+          <Header />
+          <BannerWToP />
+          <Services />
+          <BannerPToW />
+          <Opinions />
+          <BannerWToP />
+          <Gallery setSelectedImg={setSelectedImg} />
+          {selectedImg && <Modal selectedImg={selectedImg} setSelectedImg={setSelectedImg} />}
+          <BannerPToW />
+          <Contact />
+        </div>
+      </div>
+      <Footer />
+    </>
   );
 }
 
