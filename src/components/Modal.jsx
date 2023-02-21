@@ -8,7 +8,7 @@ const Modal = ({ selectedImg, setSelectedImg }) => {
 
   return (
     <div
-      className='h-screen w-full fixed left-0 top-0 flex justify-center items-center bg-black/70'
+      className='h-screen w-full fixed left-0 top-0 z-10 flex justify-center items-center bg-black/70'
       onClick={handleClick}>
       <img
         src={selectedImg}
