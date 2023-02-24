@@ -1,12 +1,13 @@
 import React from 'react'
-import placeholder from '../img/placeholder header.png'
+// import placeholder from '../img/placeholder header.png'
+import headerphoto from '../img/cabecera.png'
 import biglogo from '../img/Logo_Canguro_de_mascotas_Redes2-removebg-preview.png'
 
 const Header = () => {
   return (
     <div className="p-4">
       <div className='flex flex-col-reverse md:flex-row justify-center gap-4 items-center'>
-        <img src={placeholder} alt='/' className='md:w-5/12' />
+        <img src={headerphoto} alt='/' className='md:w-5/12' />
         <div className='md:w-5/12'>
           {/* <h1 className='text-6xl text-purple-800 text-center'>Paula Blasco</h1> */}
           <img src={biglogo} alt='/' className='mx-auto' />
