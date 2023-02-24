@@ -168,16 +168,16 @@ const Services = () => {
             </div>
           </details>
         </div>
-        <div className="md:w-5/12 flex md:flex-col gap-4 justify-center items-center">
+        <div className="md:w-5/12 flex md:flex-col gap-4 justify-center items-center md:items-start">
           <img
             src={serviceImage}
             alt=""
-            className="w-5/12 md:w-10/12 h-auto rounded-xl border border-purple-800"
+            className="w-5/12 md:w-6/12 rounded-xl border border-purple-800"
           />
           <img
             src={serviceImage2}
             alt=""
-            className="w-5/12 md:w-10/12 h-auto rounded-xl border border-purple-800"
+            className="w-5/12 md:w-6/12 h-auto rounded-xl border border-purple-800"
           />
         </div>
       </div>
