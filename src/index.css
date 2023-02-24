@@ -2,38 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Itim&family=Nunito:wght@400;700&family=Satisfy&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Itim&family=Nunito:wght@400;700&family=Satisfy&display=swap");
 
 @layer base {
   html {
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
   }
-  h1{
-    font-family: 'Satisfy', cursive;
+  h1 {
+    font-family: "Satisfy", cursive;
   }
-  h2{
-    font-family: 'Itim', cursive;
-    font-size: 2.5rem;
-    text-align:center;
+  h2 {
+    font-family: "Itim", cursive;
+    font-size: 2.3rem;
+    text-align: center;
     margin-bottom: 2rem;
   }
-  h2::before{
-    content: '';
-    background:url('./img/Logo-removebg-preview.png');
+  h2::before {
+    content: "";
+    background: url("./img/Logo-removebg-preview.png");
     background-size: 2rem;
     width: 2rem;
-    height:2rem;
+    height: 2rem;
     display: inline-block;
-    margin-right: .5rem;
+    margin-right: 0.5rem;
   }
-  h2::after{
-    content: '';
-    background:url('./img/Logo-removebg-preview.png');
+  h2::after {
+    content: "";
+    background: url("./img/Logo-removebg-preview.png");
     background-size: 2rem;
     width: 2rem;
-    height:2rem;
+    height: 2rem;
     display: inline-block;
-    margin-left: .5rem;
+    margin-left: 0.5rem;
   }
 }
