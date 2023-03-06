@@ -20,18 +20,18 @@
   h2::before {
     content: "";
     background: url("./img/Logo-removebg-preview.png");
-    background-size: 2rem;
-    width: 2rem;
-    height: 2rem;
+    background-size: 1.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
     display: inline-block;
     margin-right: 0.5rem;
   }
   h2::after {
     content: "";
     background: url("./img/Logo-removebg-preview.png");
-    background-size: 2rem;
-    width: 2rem;
-    height: 2rem;
+    background-size: 1.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
     display: inline-block;
     margin-left: 0.5rem;
   }
