@@ -10,7 +10,7 @@ const Services = () => {
       <h2>Nuestros servicios</h2>
       <div className="flex flex-col md:flex-row gap-4 justify-center items-center md:items-start">
         <div className="flex gap-4 flex-col md:w-5/12 items-center md:items-end">
-          <details className="group border-2 border-purple-800 p-1 flex justify-center items-center gap-2 rounded-xl bg-white hover:bg-purple-200 transition-all duration-500 w-fit">
+          <details className="w-full md:w-fit group border-2 border-purple-800 p-1 flex justify-center items-center gap-2 rounded-xl bg-white hover:bg-purple-200 transition-all duration-500">
             <summary className="flex group-open:border-b-2 group-open:border-purple-800 text-2xl mx-2 cursor-pointer font-bold gap-4 justify-center items-center text-center">
               <img
                 className="w-7 h-7 rounded-full"
@@ -38,7 +38,7 @@ const Services = () => {
               <p className="text-justify indent-4">
                 En nuestro alojamiento de perros sin jaulas, ofrecemos un
                 entorno seguro, limpio y acogedor para tu mascota mientras estás
-                fuera.{" "}
+                fuera.
               </p>
               <p className="text-justify indent-4">
                 Sabemos lo importante que es para ti asegurarte de que tu amigo
@@ -48,7 +48,7 @@ const Services = () => {
             </div>
           </details>
 
-          <details className="group border-2 border-purple-800 p-1 flex justify-center items-center gap-2 rounded-xl bg-white hover:bg-purple-200 transition-all duration-500 w-fit">
+          <details className="w-full md:w-fit group border-2 border-purple-800 p-1 flex justify-center items-center gap-2 rounded-xl bg-white hover:bg-purple-200 transition-all duration-500">
             <summary className="group-open:border-b-2 group-open:border-purple-800 text-2xl mx-2 cursor-pointer list-none font-bold flex  gap-4 justify-center items-center text-center">
               <img
                 className="w-7 h-7 rounded-full"
@@ -88,7 +88,7 @@ const Services = () => {
             </div>
           </details>
 
-          <details className="group border-2 border-purple-800 p-1 flex justify-center items-center gap-2 rounded-xl bg-white hover:bg-purple-200 transition-all duration-500 w-fit">
+          <details className="w-full md:w-fit group border-2 border-purple-800 p-1 flex justify-center items-center gap-2 rounded-xl bg-white hover:bg-purple-200 transition-all duration-500">
             <summary className="group-open:border-b-2 group-open:border-purple-800 text-2xl mx-2 cursor-pointer list-none font-bold flex  gap-4 justify-center items-center text-center ">
               <img
                 className="w-7 h-7 rounded-full"
@@ -128,8 +128,8 @@ const Services = () => {
             </div>
           </details>
 
-          <details className="group border-2 border-purple-800 p-1 flex justify-center items-center gap-2 rounded-xl bg-white hover:bg-purple-200 transition-all duration-500 w-fit">
-            <summary className="group-open:border-b-2 group-open:border-purple-800 text-2xl mx-2 cursor-pointer list-none font-bold flex  gap-4 justify-center items-center text-center ">
+          <details className="w-full md:w-fit group border-2 border-purple-800 p-1 flex justify-center items-center gap-2 rounded-xl bg-white hover:bg-purple-200 transition-all duration-500">
+            <summary className=" group-open:border-b-2 group-open:border-purple-800 text-2xl mx-2 cursor-pointer list-none font-bold flex  gap-4 justify-center items-center text-center ">
               <img
                 className="w-7 h-7 rounded-full"
                 alt="/"

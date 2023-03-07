@@ -13,9 +13,9 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'body-pattern': "url('/src/img/fondo.avif')",
-        'banner-w-to-p': "url('/src/img/banner.png')",
-        'banner-p-to-w': "url('/src/img/invertido.png')"
+        'body-pattern': "url('/src/img/patron.svg')",
+        'banner-w-to-p': "url('/src/img/banner1.svg')",
+        'banner-p-to-w': "url('/src/img/banner2.svg')"
       },
       boxShadow: {
         '3xl': '0 0 10px #000',
