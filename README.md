@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# Canguro de mascotas
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Web de Canguro de Mascotas, donde podrás conocer los diferentes servicios que se ofrecen, opiniones de clientes, galería de fotos y cómo contactar para solicitar servicios.
 
-## Available Scripts
+## Secciones
 
-In the project directory, you can run:
+1. **Nuestros servicios:** sección donde se explican los difeentes servicios ofrecidos.
+2. **Las opiniones de nuestros clientes:** sección donde se muestran las diferentesopiniones de clientes satisfechos.
+3. **Nuestros clientes peludos:** galería de fotos de algunos de los peros alojados
+4. **Contacto:** secció con los difeentes métodos de contacto para solicitar servicios.
 
-### `npm start`
+## Tecnologías utilizadas
+- React
+- Tailwind
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Instalación y uso
+1. Clona este repositorio en tu ordenador
+2. Navega hasta el directorio del proyecto
+3. Ejecuta `npm install` para instalar las dependencias del proyecto
+4. Ejecuta `npm start` para iniciar la aplicación
+5. Abre tu navegador y visita `http://localhost:3000`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Contribución
+Si te gustaría contribuir a este proyecto, por favor sigue los siguientes pasos:
 
-### `npm test`
+1. Haz un fork de este repositorio
+2. Crea una rama con tus cambios (`git checkout -b mi-cambio`)
+3. Haz tus cambios y haz commit de ellos (`git commit -am 'Nueva característica'`)
+4. Haz push de la rama a tu fork (`git push origin mi-cambio`)
+5. Crea un pull request para que revise tus cambios
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Créditos
+- Este proyecto fue diseñado y desarrollado por mí, pero utilicé React y Tailwind para hacerlo posible.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Tareas pendientes
+- [ ] Optimización
