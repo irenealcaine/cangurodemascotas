@@ -2,17 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Itim&family=Nunito:wght@400;700&family=Satisfy&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Itim&family=Nunito:wght@400;700&family=Satisfy&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Poppins:wght@200;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat:wght@200;400;700;900&display=swap");
 
 @layer base {
   html {
-    font-family: "Nunito", sans-serif;
+    /* font-family: "Nunito", sans-serif; */
+    font-family: "Montserrat", sans-serif;
   }
   h1 {
-    font-family: "Satisfy", cursive;
+    /* font-family: "Satisfy", cursive; */
+    font-family: "Courgette", cursive;
   }
   h2 {
-    font-family: "Itim", cursive;
+    /* font-family: "Itim", cursive; */
+    font-family: "Courgette", cursive;
     font-size: 2.3rem;
     text-align: center;
     margin-bottom: 2rem;
@@ -37,7 +42,7 @@
     display: inline-block;
     margin-left: 0.5rem;
   }
-  @media (max-width: 480px) {
+  @media (max-width: 768px) {
     h2 {
       font-size: 1.8rem;
       text-align: center;

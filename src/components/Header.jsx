@@ -11,10 +11,12 @@ const Header = () => {
       <div className="flex flex-col-reverse md:flex-row justify-center gap-4 items-center">
         <img src={headerphoto} alt="/" className="md:w-5/12" />
         <div className="md:w-5/12">
-          {/* <h1 className='text-6xl text-purple-800 text-center'>Paula Blasco</h1> */}
           <img src={biglogo} alt="/" className="mx-auto" />
         </div>
       </div>
+      <h1 className="text-6xl text-purple-800 text-center my-10">
+        La mejor guardería para tu mascota en Llíria
+      </h1>
       <div className="flex flex-col md:flex-row flex-wrap gap-2 md:gap-6 justify-center items-center my-4">
         <a
           href="https://www.instagram.com/canguro.mascotas/"
