@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { FiInstagram, FiMail } from "react-icons/fi";
 import { BsWhatsapp } from "react-icons/bs";
 
