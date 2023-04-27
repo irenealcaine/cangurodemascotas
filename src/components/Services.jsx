@@ -1,6 +1,5 @@
 import React from "react";
 import logo from "../img/Logo-removebg-preview.png";
-import arrow from "../img/Arrow-down.png";
 import serviceImage from "../img/galeria2.JPG";
 import serviceImage2 from "../img/galeria6.jpg";
 import { GiDogHouse } from "react-icons/gi";
