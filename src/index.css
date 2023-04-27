@@ -2,20 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Itim&family=Nunito:wght@400;700&family=Satisfy&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Itim&family=Nunito:wght@400;700&family=Satisfy&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Poppins:wght@200;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat:wght@200;400;700;900&display=swap");
 
 @layer base {
   html {
-    font-family: "Nunito", sans-serif;
+    /* font-family: "Nunito", sans-serif; */
+    font-family: "Montserrat", sans-serif;
   }
   h1 {
-    font-family: "Satisfy", cursive;
+    /* font-family: "Satisfy", cursive; */
+    font-family: "Courgette", cursive;
   }
   h2 {
-    font-family: "Itim", cursive;
+    /* font-family: "Itim", cursive; */
+    font-family: "Courgette", cursive;
     font-size: 2.3rem;
     text-align: center;
     margin-bottom: 2rem;
+    text-decoration: #7e22ce underline;
+    text-decoration-thickness: 3px;
   }
   h2::before {
     content: "";
@@ -34,5 +41,22 @@
     height: 1.5rem;
     display: inline-block;
     margin-left: 0.5rem;
+  }
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 1.8rem;
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+    h2::before {
+      width: 0rem;
+      height: 0rem;
+      margin-right: 0rem;
+    }
+    h2::after {
+      width: 0rem;
+      height: 0rem;
+      margin-left: 0rem;
+    }
   }
 }

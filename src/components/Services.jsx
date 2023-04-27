@@ -3,6 +3,10 @@ import logo from "../img/Logo-removebg-preview.png";
 import arrow from "../img/Arrow-down.png";
 import serviceImage from "../img/galeria2.JPG";
 import serviceImage2 from "../img/galeria6.jpg";
+import { GiDogHouse } from "react-icons/gi";
+import { MdKeyboardArrowDown } from "react-icons/md";
+import { BsFillHouseFill, BsFillSunFill } from "react-icons/bs";
+import { FaDog } from "react-icons/fa";
 
 const Services = () => {
   return (
@@ -10,19 +14,11 @@ const Services = () => {
       <h2>Nuestros servicios</h2>
       <div className="flex flex-col md:flex-row gap-4 justify-center items-center md:items-start">
         <div className="flex gap-4 flex-col md:w-5/12 items-center md:items-end">
-          <details className="w-full md:w-fit group border-2 border-purple-800 p-1 flex justify-center items-center gap-2 rounded-xl bg-white hover:bg-purple-200 transition-all duration-500">
-            <summary className="flex group-open:border-b-2 group-open:border-purple-800 text-2xl mx-2 cursor-pointer font-bold gap-4 justify-center items-center text-center">
-              <img
-                className="w-7 h-7 rounded-full"
-                alt="/"
-                src="https://cdn-icons-png.flaticon.com/512/5308/5308494.png"
-              />
+          <details className="w-full group border-2 border-purple-800 p-1 flex justify-between items-center gap-2 rounded-xl bg-white hover:bg-purple-100 transition-all duration-500">
+            <summary className="flex group-open:border-b-2 group-open:border-purple-800  text-lg md:text-2xl mx-2 cursor-pointer font-bold gap-4 justify-between items-center text-center">
+              <GiDogHouse className="text-3xl text-purple-800" />
               Alojamiento sin jaula
-              <img
-                className="w-5 h-5 rounded-full bg-white  group-open:rotate-180 transition-all duration-500"
-                alt="/"
-                src={arrow}
-              />
+              <MdKeyboardArrowDown className="text-3xl text-purple-800 group-open:rotate-180 transition-all duration-500" />
             </summary>
             <div className="p-4 relative">
               <img
@@ -48,19 +44,11 @@ const Services = () => {
             </div>
           </details>
 
-          <details className="w-full md:w-fit group border-2 border-purple-800 p-1 flex justify-center items-center gap-2 rounded-xl bg-white hover:bg-purple-200 transition-all duration-500">
-            <summary className="group-open:border-b-2 group-open:border-purple-800 text-2xl mx-2 cursor-pointer list-none font-bold flex  gap-4 justify-center items-center text-center">
-              <img
-                className="w-7 h-7 rounded-full"
-                alt="/"
-                src="https://cdn-icons-png.flaticon.com/512/5988/5988246.png"
-              />
+          <details className="w-full group border-2 border-purple-800 p-1 flex justify-center items-center gap-2 rounded-xl bg-white hover:bg-purple-100 transition-all duration-500">
+            <summary className="group-open:border-b-2 group-open:border-purple-800 text-lg md:text-2xl mx-2 cursor-pointer list-none font-bold flex  gap-4 justify-between items-center text-center">
+              <BsFillHouseFill className="text-3xl text-purple-800" />
               Cuidado a domicilio
-              <img
-                className="w-5 h-5 rounded-full bg-white  group-open:rotate-180 transition-all duration-500"
-                alt="/"
-                src={arrow}
-              />
+              <MdKeyboardArrowDown className="text-3xl text-purple-800 group-open:rotate-180 transition-all duration-500" />
             </summary>
             <div className="p-4 relative">
               <img
@@ -88,19 +76,11 @@ const Services = () => {
             </div>
           </details>
 
-          <details className="w-full md:w-fit group border-2 border-purple-800 p-1 flex justify-center items-center gap-2 rounded-xl bg-white hover:bg-purple-200 transition-all duration-500">
-            <summary className="group-open:border-b-2 group-open:border-purple-800 text-2xl mx-2 cursor-pointer list-none font-bold flex  gap-4 justify-center items-center text-center ">
-              <img
-                className="w-7 h-7 rounded-full"
-                alt="/"
-                src="https://cdn-icons-png.flaticon.com/512/831/831682.png"
-              />
+          <details className="w-full group border-2 border-purple-800 p-1 flex justify-center items-center gap-2 rounded-xl bg-white hover:bg-purple-100 transition-all duration-500">
+            <summary className="group-open:border-b-2 group-open:border-purple-800  text-lg md:text-2xl mx-2 cursor-pointer list-none font-bold flex  gap-4 justify-between items-center text-center ">
+              <BsFillSunFill className="text-3xl text-purple-800" />
               Guardería de día
-              <img
-                className="w-5 h-5 rounded-full bg-white  group-open:rotate-180 transition-all duration-500"
-                alt="/"
-                src={arrow}
-              />
+              <MdKeyboardArrowDown className="text-3xl text-purple-800 group-open:rotate-180 transition-all duration-500" />
             </summary>
             <div className="p-4 relative">
               <img
@@ -128,19 +108,11 @@ const Services = () => {
             </div>
           </details>
 
-          <details className="w-full md:w-fit group border-2 border-purple-800 p-1 flex justify-center items-center gap-2 rounded-xl bg-white hover:bg-purple-200 transition-all duration-500">
-            <summary className=" group-open:border-b-2 group-open:border-purple-800 text-2xl mx-2 cursor-pointer list-none font-bold flex  gap-4 justify-center items-center text-center ">
-              <img
-                className="w-7 h-7 rounded-full"
-                alt="/"
-                src="https://i.pinimg.com/originals/11/f4/90/11f490f709630c5ac00c56930928ee19.png"
-              />
+          <details className="w-full group border-2 border-purple-800 p-1 flex justify-center items-center gap-2 rounded-xl bg-white hover:bg-purple-100 transition-all duration-500">
+            <summary className=" group-open:border-b-2 group-open:border-purple-800  text-lg md:text-2xl mx-2 cursor-pointer list-none font-bold flex  gap-4 justify-between items-center text-center ">
+              <FaDog className="text-3xl text-purple-800" />
               Paseos
-              <img
-                className="w-5 h-5 rounded-full bg-white  group-open:rotate-180 transition-all duration-500"
-                alt="/"
-                src={arrow}
-              />
+              <MdKeyboardArrowDown className="text-3xl text-purple-800 group-open:rotate-180 transition-all duration-500" />
             </summary>
             <div className="p-4 relative">
               <img
