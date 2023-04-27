@@ -4,7 +4,7 @@ import { BsWhatsapp } from "react-icons/bs";
 
 const NavBar = () => {
   return (
-    <nav className="bg-purple-800 py-2 sticky top-0">
+    <nav className="bg-purple-800 py-2 sticky top-0 z-50">
       <div className="container mx-auto flex justify-between items-center px-4">
         <div className="flex justify-end w-full">
           <a
