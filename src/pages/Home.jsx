@@ -17,8 +17,8 @@ const Home = () => {
   return (
     <>
       <NavBar />
-      <div className="p-4 bg-body-pattern bg-12.5">
-        <div className="bg-white/95 rounded-xl shadow-3xl max-w-[1500px] mx-auto">
+      <div className="p-4 bg-body-pattern bg-30">
+        <div className="bg-white/95 rounded-xl shadow-3xl max-w-[1700px] mx-auto">
           <Header />
           <BannerWToP />
           <Services />
