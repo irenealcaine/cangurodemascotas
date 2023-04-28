@@ -5,7 +5,7 @@ import menu from "../components/db/menudb.js";
 
 const NavBar = () => {
   return (
-    <nav className="bg-purple-800 py-2 sticky top-0 z-50">
+    <nav className="bg-purple-800 py-2 top-0 z-50">
       <div className="container mx-auto flex justify-between items-center px-4 ">
         <a href="#header" className="">
           <img

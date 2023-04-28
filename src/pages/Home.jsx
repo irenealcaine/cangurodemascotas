@@ -16,7 +16,13 @@ const Home = () => {
 
   return (
     <>
-      <NavBar />
+      <div className="fixed top-0 z-50 w-full">
+        <NavBar />
+        {selectedImg && (
+          <Modal selectedImg={selectedImg} setSelectedImg={setSelectedImg} />
+        )}
+
+      </div>
       <div className="p-4 bg-body-pattern bg-30">
         <div className="bg-white/90 backdrop-blur rounded-xl shadow-3xl max-w-[1700px] mx-auto">
           <Header />
@@ -26,9 +32,6 @@ const Home = () => {
           <Opinions />
           <BannerWToP />
           <Gallery setSelectedImg={setSelectedImg} />
-          {selectedImg && (
-            <Modal selectedImg={selectedImg} setSelectedImg={setSelectedImg} />
-          )}
           <BannerPToW />
           <Contact />
         </div>
