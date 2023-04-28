@@ -3,6 +3,7 @@ import logo from "../img/Logo-removebg-preview.png";
 import serviceImage from "../img/galeria2.JPG";
 import serviceImage2 from "../img/galeria6.jpg";
 import { MdKeyboardArrowDown } from "react-icons/md";
+import { Fade } from "react-awesome-reveal";
 
 import services from "../components/db/servicesdb.js";
 
@@ -44,18 +45,20 @@ const Services = () => {
           })}
         </div>
         <div className="md:w-5/12 flex md:flex-col gap-4 justify-center items-center md:items-start">
-          <img
-            src={serviceImage}
-            alt="perro en el jardín"
-            loading="lazy"
-            className="w-5/12 md:w-6/12 rounded-xl border border-purple-800"
-          />
-          <img
-            src={serviceImage2}
-            alt="perro durmiendo dentro de casa"
-            loading="lazy"
-            className="w-5/12 md:w-6/12 h-auto rounded-xl border border-purple-800"
-          />
+          <Fade cascade>
+            <img
+              src={serviceImage}
+              alt="perro en el jardín"
+              loading="lazy"
+              className="w-5/12 md:w-6/12 rounded-xl border border-purple-800"
+            />
+            <img
+              src={serviceImage2}
+              alt="perro durmiendo dentro de casa"
+              loading="lazy"
+              className="w-5/12 md:w-6/12 h-auto rounded-xl border border-purple-800"
+            />
+          </Fade>
         </div>
       </div>
     </section>
