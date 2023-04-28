@@ -10,7 +10,7 @@ const NavBar = () => {
         <a href="#header" className="">
           <img
             src={logo}
-            className="w-8 md:w-10 bg-white/80 rounded-full p-1"
+            className="w-8 md:w-10 bg-white/80 rounded-full p-1 hover:bg-white transition duration-500"
             loading="lazy"
             alt="logo"
           />
@@ -21,7 +21,7 @@ const NavBar = () => {
               <li>
                 <a
                   href={item.href}
-                  className="text-gray-300 hover:text-white ml-4 flex items-center"
+                  className="text-gray-300 hover:text-white transition duration-500 ml-4 flex items-center"
                 >
                   {item.text}
                 </a>
@@ -36,7 +36,7 @@ const NavBar = () => {
                 href={media.href}
                 target="_blank"
                 rel="noreferrer"
-                className="text-gray-300 hover:text-white ml-4 flex items-center"
+                className="text-gray-300 hover:text-white transition duration-500 ml-4 flex items-center"
               >
                 {media.navbarIcon}
                 <p className="hidden lg:block md:mx-2">{media.title}</p>
