@@ -5,7 +5,7 @@ import socialMedia from "../components/db/socialdb.js";
 
 const Header = () => {
   return (
-    <header className="p-4">
+    <header className="p-4" id="header">
       <div className="flex flex-col-reverse md:flex-row justify-center gap-4 items-center">
         <img
           src={headerphoto}
