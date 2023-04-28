@@ -14,6 +14,7 @@
   h1 {
     /* font-family: "Satisfy", cursive; */
     font-family: "Courgette", cursive;
+    text-shadow: 0 0 2px #3b0764;
   }
   h2 {
     /* font-family: "Itim", cursive; */
