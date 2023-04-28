@@ -5,7 +5,7 @@ import { Fade } from "react-awesome-reveal";
 
 const Opinions = () => {
   return (
-    <section className="p-4">
+    <section className="p-4" id="opinions">
       <h2>Las opiniones de nuestros clientes</h2>
       <Fade cascade>
         <div className="flex flex-wrap flex-col md:flex-row justify-center items-center gap-4">

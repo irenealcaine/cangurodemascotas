@@ -4,7 +4,7 @@ import { Fade } from "react-awesome-reveal";
 
 const Gallery = ({ setSelectedImg }) => {
   return (
-    <section className="bg-purple-800/30 p-4">
+    <section className="bg-purple-800/30 p-4" id="gallery">
       <h2>Nuestros clientes peludos</h2>
       <Fade cascade>
         <div className="flex flex-wrap gap-4 justify-center items-center">
