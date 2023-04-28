@@ -10,12 +10,12 @@ const Opinions = () => {
           <img
             alt="/"
             src={logo}
-            className="absolute top-0 left-0 w-10 opacity-30"
+            className="absolute top-1 left-1 w-10 opacity-30"
           />
           <img
             alt="/"
             src={logo}
-            className="absolute bottom-0 right-0 w-10 opacity-30"
+            className="absolute bottom-1 right-1 w-10 opacity-30"
           />
           <p className="text-center text-xl">
             Gracias Paula por cuidar de Travis tan bien. Volveremos. ❤️🐶
