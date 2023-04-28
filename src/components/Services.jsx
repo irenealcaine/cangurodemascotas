@@ -8,7 +8,7 @@ import services from "../components/db/servicesdb.js";
 
 const Services = () => {
   return (
-    <div className="bg-purple-800/30 p-4">
+    <section className="bg-purple-800/30 p-4">
       <h2>Nuestros servicios</h2>
       <div className="flex flex-col md:flex-row gap-4 justify-center items-center md:items-start">
         <div className="flex gap-4 flex-col md:w-5/12 items-center md:items-end">
@@ -54,7 +54,7 @@ const Services = () => {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

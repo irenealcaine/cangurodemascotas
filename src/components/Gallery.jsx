@@ -3,7 +3,7 @@ import gallery from "./db/gallerydb.js";
 
 const Gallery = ({ setSelectedImg }) => {
   return (
-    <div className="bg-purple-800/30 p-4">
+    <section className="bg-purple-800/30 p-4">
       <h2>Nuestros clientes peludos</h2>
       <div className="flex flex-wrap gap-4 justify-center items-center">
         {gallery.map((photo) => {
@@ -17,7 +17,7 @@ const Gallery = ({ setSelectedImg }) => {
           );
         })}
       </div>
-    </div>
+    </section>
   );
 };
 

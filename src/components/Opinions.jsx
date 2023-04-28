@@ -4,7 +4,7 @@ import opinions from "../components/db/opinionsdb.js";
 
 const Opinions = () => {
   return (
-    <div className="p-4">
+    <section className="p-4">
       <h2>Las opiniones de nuestros clientes</h2>
       <div className="flex flex-wrap flex-col md:flex-row justify-center items-center gap-4">
         {opinions.map((opinion) => {
@@ -26,7 +26,7 @@ const Opinions = () => {
           );
         })}
       </div>
-    </div>
+    </section>
   );
 };
 
