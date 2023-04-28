@@ -11,7 +11,7 @@ const Services = () => {
     <section className="bg-purple-800/30 p-4">
       <h2>Nuestros servicios</h2>
       <div className="flex flex-col md:flex-row gap-4 justify-center items-center md:items-start">
-        <div className="flex gap-4 flex-col md:w-5/12 items-center md:items-end">
+        <div className="flex gap-4 flex-col md:w-7/12 items-center md:items-end">
           {services.map((service) => {
             return (
               <details
@@ -27,11 +27,13 @@ const Services = () => {
                   <img
                     alt="/"
                     src={logo}
+                    loading="lazy"
                     className="absolute top-1 left-1 w-10 opacity-30"
                   />
                   <img
                     alt="/"
                     src={logo}
+                    loading="lazy"
                     className="absolute bottom-1 right-1 w-10 opacity-30"
                   />
                   <p className="text-justify indent-4">{service.paragraph1}</p>
@@ -41,16 +43,18 @@ const Services = () => {
             );
           })}
         </div>
-        <div className="md:w-5/12 flex md:flex-col gap-4 justify-center items-center md:items-start">
+        <div className="md:w-3/12 flex md:flex-col gap-4 justify-center items-center md:items-start">
           <img
             src={serviceImage}
             alt="perro en el jardín"
-            className="w-5/12 md:w-6/12 rounded-xl border border-purple-800"
+            loading="lazy"
+            className="w-5/12 md:w-8/12 rounded-xl border border-purple-800"
           />
           <img
             src={serviceImage2}
             alt="perro durmiendo dentro de casa"
-            className="w-5/12 md:w-6/12 h-auto rounded-xl border border-purple-800"
+            loading="lazy"
+            className="w-5/12 md:w-8/12 h-auto rounded-xl border border-purple-800"
           />
         </div>
       </div>
