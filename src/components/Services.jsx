@@ -44,8 +44,8 @@ const Services = () => {
             );
           })}
         </div>
-        <div className="md:w-5/12 flex md:flex-col gap-4 justify-center items-center md:items-start">
-          <Fade cascade>
+        <Fade cascade>
+          <div className="md:w-5/12 flex md:flex-col gap-4 justify-center items-center md:items-start">
             <img
               src={serviceImage}
               alt="perro en el jardín"
@@ -58,8 +58,8 @@ const Services = () => {
               loading="lazy"
               className="w-5/12 md:w-6/12 h-auto rounded-xl border border-purple-800"
             />
-          </Fade>
-        </div>
+          </div>
+        </Fade>
       </div>
     </section>
   );
