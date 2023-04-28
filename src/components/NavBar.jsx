@@ -9,6 +9,7 @@ const NavBar = () => {
         <img
           src={logo}
           className="w-7 md:w-12 bg-white/80 rounded-full p-1 md:p-2"
+          loading="lazy"
           alt="logo"
         />
         <div className="flex justify-end w-full">

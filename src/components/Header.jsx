@@ -7,11 +7,17 @@ const Header = () => {
   return (
     <header className="p-4">
       <div className="flex flex-col-reverse md:flex-row justify-center gap-4 items-center">
-        <img src={headerphoto} alt="varios perros" className="md:w-5/12" />
+        <img
+          src={headerphoto}
+          alt="varios perros"
+          className="md:w-5/12"
+          loading="lazy"
+        />
         <div className="md:w-5/12">
           <img
             src={biglogo}
             alt="logo de canguro de mascotas"
+            loading="lazy"
             className="mx-auto"
           />
         </div>

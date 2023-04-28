@@ -11,6 +11,7 @@ const Gallery = ({ setSelectedImg }) => {
             <img
               alt="foto de instagram"
               src={photo.src}
+              loading="lazy"
               onClick={() => setSelectedImg(photo.src)}
               className="w-5/12 md:w-auto md:h-64 rounded-xl hover:outline hover:outline-purple-800 cursor-pointer transition-all duration-75"
             />

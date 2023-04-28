@@ -27,11 +27,13 @@ const Services = () => {
                   <img
                     alt="/"
                     src={logo}
+                    loading="lazy"
                     className="absolute top-1 left-1 w-10 opacity-30"
                   />
                   <img
                     alt="/"
                     src={logo}
+                    loading="lazy"
                     className="absolute bottom-1 right-1 w-10 opacity-30"
                   />
                   <p className="text-justify indent-4">{service.paragraph1}</p>
@@ -45,11 +47,13 @@ const Services = () => {
           <img
             src={serviceImage}
             alt="perro en el jardín"
+            loading="lazy"
             className="w-5/12 md:w-6/12 rounded-xl border border-purple-800"
           />
           <img
             src={serviceImage2}
             alt="perro durmiendo dentro de casa"
+            loading="lazy"
             className="w-5/12 md:w-6/12 h-auto rounded-xl border border-purple-800"
           />
         </div>

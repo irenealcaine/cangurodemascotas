@@ -13,11 +13,13 @@ const Opinions = () => {
               <img
                 alt="logo"
                 src={logo}
+                loading="lazy"
                 className="absolute top-1 left-1 w-10 opacity-30"
               />
               <img
                 alt="logo"
                 src={logo}
+                loading="lazy"
                 className="absolute bottom-1 right-1 w-10 opacity-30"
               />
               <p className="text-center text-xl">{opinion.text}</p>
