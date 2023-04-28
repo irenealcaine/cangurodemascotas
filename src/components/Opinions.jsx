@@ -11,12 +11,12 @@ const Opinions = () => {
           return (
             <div className="bg-white md:w-5/12 border-2 border-purple-800 rounded-xl relative p-4">
               <img
-                alt="/"
+                alt="logo"
                 src={logo}
                 className="absolute top-1 left-1 w-10 opacity-30"
               />
               <img
-                alt="/"
+                alt="logo"
                 src={logo}
                 className="absolute bottom-1 right-1 w-10 opacity-30"
               />

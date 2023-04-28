@@ -7,9 +7,9 @@ const Header = () => {
   return (
     <div className="p-4">
       <div className="flex flex-col-reverse md:flex-row justify-center gap-4 items-center">
-        <img src={headerphoto} alt="/" className="md:w-5/12" />
+        <img src={headerphoto} alt="varios perros" className="md:w-5/12" />
         <div className="md:w-5/12">
-          <img src={biglogo} alt="/" className="mx-auto" />
+          <img src={biglogo} alt="logo de canguro de mascotas" className="mx-auto" />
         </div>
       </div>
       <h1 className="text-6xl text-purple-800 text-center my-10">
