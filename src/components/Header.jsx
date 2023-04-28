@@ -2,8 +2,9 @@ import React from "react";
 // import placeholder from '../img/placeholder header.png'
 import headerphoto from "../img/cabecera.png";
 import biglogo from "../img/Logo_Canguro_de_mascotas_Redes2-removebg-preview.png";
-import { FiInstagram, FiMail } from "react-icons/fi";
-import { BsWhatsapp } from "react-icons/bs";
+// import { FiInstagram, FiMail } from "react-icons/fi";
+// import { BsWhatsapp } from "react-icons/bs";
+import socialMedia from "../components/db/socialdb.js";
 
 const Header = () => {
   return (
@@ -18,7 +19,18 @@ const Header = () => {
         La mejor guardería para tu mascota en Llíria
       </h1>
       <div className="flex flex-col md:flex-row flex-wrap gap-2 md:gap-6 justify-center items-center my-4">
-        <a
+        {socialMedia.map((media) => {
+          return (
+            <a href={media.href} target="_blank" rel="noreferrer">
+              <div className="flex gap-1 justify-center items-center  cursor-pointer hover:underline hover:text-purple-800  transition-all duration-500 ease-in-out text-lg md:text-2xl">
+                {media.icon}
+                <p className="font-bold">{media.title}</p>
+              </div>
+            </a>
+          );
+        })}
+
+        {/* <a
           href="https://www.instagram.com/canguro.mascotas/"
           target="_blank"
           rel="noreferrer"
@@ -47,7 +59,7 @@ const Header = () => {
             <FiMail className="text-purple-800" />
             <p className="font-bold">paulablasco3@gmail.com</p>
           </div>
-        </a>
+        </a> */}
       </div>
     </div>
   );
