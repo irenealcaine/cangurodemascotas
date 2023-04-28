@@ -22,14 +22,14 @@ const Header = () => {
           />
         </div>
       </div>
-      <h1 className="text-6xl text-purple-800 text-center my-10">
+      <h1 className="text-5xl md:text-6xl text-purple-800 text-center my-10">
         La mejor guardería para tu mascota en Llíria
       </h1>
       <div className="flex flex-col md:flex-row flex-wrap gap-2 md:gap-6 justify-center items-center my-4">
         {socialMedia.map((media) => {
           return (
             <a href={media.href} target="_blank" rel="noreferrer">
-              <div className="flex gap-1 justify-center items-center  cursor-pointer hover:underline hover:text-purple-800  transition-all duration-500 ease-in-out text-lg md:text-2xl">
+              <div className="flex flex-wrap gap-1 justify-center items-center cursor-pointer hover:underline hover:text-purple-800  transition-all duration-500 ease-in-out text-lg md:text-2xl">
                 {media.icon}
                 <p className="font-bold">{media.title}</p>
               </div>
