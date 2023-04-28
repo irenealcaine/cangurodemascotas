@@ -16,7 +16,7 @@ module.exports = {
         "banner-p-to-w": "url('/src/img/banner2.svg')",
       },
       boxShadow: {
-        "3xl": "0 0 10px #000",
+        "3xl": "0 0 10px #3b076477",
       },
     },
   },
