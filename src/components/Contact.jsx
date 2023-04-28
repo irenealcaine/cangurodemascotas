@@ -3,7 +3,7 @@ import socialMedia from "../components/db/socialdb.js";
 
 const Contact = () => {
   return (
-    <div className="p-4">
+    <section className="p-4">
       <h2>Contacto</h2>
       <div>
         <div className="flex flex-col md:flex-row flex-wrap gap-2 md:gap-6 justify-center items-center my-4">
@@ -25,7 +25,7 @@ const Contact = () => {
           <p>Sábados: de 9h a 14h</p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

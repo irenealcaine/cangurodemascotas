@@ -4,19 +4,19 @@ import opinions from "../components/db/opinionsdb.js";
 
 const Opinions = () => {
   return (
-    <div className="p-4">
+    <section className="p-4">
       <h2>Las opiniones de nuestros clientes</h2>
       <div className="flex flex-wrap flex-col md:flex-row justify-center items-center gap-4">
         {opinions.map((opinion) => {
           return (
             <div className="bg-white md:w-5/12 border-2 border-purple-800 rounded-xl relative p-4">
               <img
-                alt="/"
+                alt="logo"
                 src={logo}
                 className="absolute top-1 left-1 w-10 opacity-30"
               />
               <img
-                alt="/"
+                alt="logo"
                 src={logo}
                 className="absolute bottom-1 right-1 w-10 opacity-30"
               />
@@ -26,7 +26,7 @@ const Opinions = () => {
           );
         })}
       </div>
-    </div>
+    </section>
   );
 };
 

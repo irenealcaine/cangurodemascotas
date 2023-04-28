@@ -12,7 +12,7 @@ const Modal = ({ selectedImg, setSelectedImg }) => {
     >
       <img
         src={selectedImg}
-        alt="/"
+        alt="foto de instagram"
         className="block w-11/12 md:h-4/5 md:w-auto rounded-xl mx-auto my-16"
       />
     </div>
