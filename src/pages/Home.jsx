@@ -23,7 +23,7 @@ const Home = () => {
         )}
 
       </div>
-      <div className="p-4 bg-body-pattern bg-30">
+      <div className="p-4 pt-14 bg-body-pattern bg-30">
         <div className="bg-white/90 backdrop-blur rounded-xl shadow-3xl max-w-[1700px] mx-auto">
           <Header />
           <BannerWToP />
