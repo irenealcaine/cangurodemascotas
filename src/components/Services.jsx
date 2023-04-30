@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../img/Logo-removebg-preview.png";
-import serviceImage from "../img/galeria2.JPG";
+import serviceImage from "../img/galeria2.jpg";
 import serviceImage2 from "../img/galeria6.jpg";
 import { MdKeyboardArrowDown } from "react-icons/md";
 
